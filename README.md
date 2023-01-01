@@ -39,6 +39,14 @@
 <!-- <p align="center"><img src="https://user-images.githubusercontent.com/65529313/168473170-938e1ce0-395f-40be-9118-ea127668b11d.png" /></p> -->
 
 - 범주형 데이터 처리에 좋은 성능을 내는 Catboost Model 이용
+- Cold-Start User에 유리하며 비선형구조도 표현이 가능한 FFDCN(FFM+DCN) Model 이용
+- 표현이 다른 Catboost와 FFDCN 두 모델을 앙상블 하여 최종 결과 제출
+- 모델 실행 순서는 다음과 같습니다.
+~~~
+1) FFDCN.ipynb 파일 실행 => submit/FFDCN.csv 파일 생성
+2) CatBoost.ipynb 파일 실행 => submit/CatBost.csv 파일 생성
+3) Ensemble.ipynb 파일 실행 => submit/Ensemble.csv 파일 생성
+~~~
 
 <br /> 
 <br /> 
@@ -59,11 +67,5 @@
 |private| 2.1045 | **최종 1위** |
 
 ![image](https://user-images.githubusercontent.com/28619804/199737010-460bcab6-a537-4b5b-b2b8-cb65100e91da.png)
-
-
-# 모델 실행 순서
-1) FFDCN.ipynb 파일 실행 => submit/FFDCN.csv 파일 생성
-2) CatBoost.ipynb 파일 실행 => submit/CatBost.csv 파일 생성
-3) Ensemble.ipynb 파일 실행 => submit/Ensemble.csv 파일 생성
 
 상세한 프로젝트 내용은 발표자료 및 레포트를 참고해주세요!
