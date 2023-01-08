@@ -47,6 +47,7 @@
 2) CatBoost.ipynb 파일 실행 => submit/CatBost.csv 파일 생성
 3) Ensemble.ipynb 파일 실행 => submit/Ensemble.csv 파일 생성
 ~~~
+- 상세한 프로젝트 내용은 발표자료 및 레포트를 참고해주세요!
 
 <br /> 
 <br /> 
@@ -67,5 +68,3 @@
 |private| 2.1045 | **최종 1위** |
 
 ![image](https://user-images.githubusercontent.com/28619804/199737010-460bcab6-a537-4b5b-b2b8-cb65100e91da.png)
-
-상세한 프로젝트 내용은 발표자료 및 레포트를 참고해주세요!
